@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+
+    <title>Nav Example</title>
+</head>
+<body id="Body" onload="setTheTimeout()">
+    <div class = "loader"></div>
+    <header id="Header">
+        <img src="./images/Logo.png" alt="Company Logo">    
+        <nav>
+            <ul>
+                <li>
+                    <a href="#Home"> Home </a>
+                </li>
+                <li>
+                    <a href="#About"> About </a>
+                </li>
+                <li>
+                    <a href="#Contact"> Contact </a>
+                </li>
+                <li>
+                    <a href="#Form"> Form </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id ="Home">
+            <h2><u>Home</u></h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate, qui perspiciatis odio libero deleniti hic quis sapiente earum a laudantium cum, magni perferendis labore amet praesentium incidunt officia! Porro, deserunt.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam odit nisi numquam aliquam? Quis suscipit, doloremque, cumque debitis asperiores eligendi, perspiciatis nam totam quam consectetur pariatur tenetur repudiandae vel voluptate.
+            </p>
+        </section>
+        <section id ="About">
+            <h2><u>About</u></h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate, qui perspiciatis odio libero deleniti hic quis sapiente earum a laudantium cum, magni perferendis labore amet praesentium incidunt officia! Porro, deserunt.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam odit nisi numquam aliquam? Quis suscipit, doloremque, cumque debitis asperiores eligendi, perspiciatis nam totam quam consectetur pariatur tenetur repudiandae vel voluptate.
+            </p>
+        </section>
+        <section id ="Contact">
+            <h2><u>Contact</u></h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate, qui perspiciatis odio libero deleniti hic quis sapiente earum a laudantium cum, magni perferendis labore amet praesentium incidunt officia! Porro, deserunt.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam odit nisi numquam aliquam? Quis suscipit, doloremque, cumque debitis asperiores eligendi, perspiciatis nam totam quam consectetur pariatur tenetur repudiandae vel voluptate.
+            </p>
+            <br>
+            <button type="button", id="Button" onclick="openForm()"> Fill Out the Form!</button>
+        </section>
+        <section id="Form">
+            <div class="Form">
+                <div class="FormContent">
+                    <form> 
+                        <div>
+                            <label> Name:</label>
+                            <input type="text", id="Input1" placeholder="Enter your name" required></input>
+                        </div>
+                        <div>
+                                <label> Surname: </label>
+                                <input type="text" id="Input2" placeholder="Enter your surame" required></input>
+                        </div>
+                        <div>
+                            <label id ="Text">Text:</label>
+                            <textarea id="Input3" cols="30" rows="10">Leave us a message
+                            </textarea>
+                        </div>
+                        <button class="SubmitButton" type="submit"> Submit</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="Footer">
+        <p>Copyright &copy; 2022</p>
+    </footer>
+
+    <script src="./script.js"> </script>
+</body>
+</html>
