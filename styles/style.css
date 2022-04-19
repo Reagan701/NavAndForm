@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Acme', sans-serif;
     
 }
 
@@ -23,13 +23,18 @@ button{
 
 h2{
     margin-bottom: 2%;
-    font-size: 37px;
+    font-size: 45px;
+}
+
+p{
+    font-size:35px
 }
 
 li{
     display: none;
     position: relative;
     padding-left: 10px;
+    font-size: 35px;
 }
 
 .Form{
